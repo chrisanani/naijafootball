@@ -288,6 +288,7 @@ summary p {
   background-color: white;
   color: green;
   margin-left: 50px;
+  margin-right:50px;
 }
 
 tr, td {
@@ -299,7 +300,10 @@ tr, td {
   background-color: yellow;
 
 }
-
+table {
+  margin-left:50px;
+}
+  
 .lead {
   margin-left: 50px;
 }
