@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Golden Eaglets</title>
+  <style>
+    h2 {
+      font-weight: bold;
+      font-size: 100px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background-color: green;
+      border: black solid 5px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    ul {
+      text-align: left;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: large;
+      line-height: 1.3;
+      width: 70%;
+    }
+
+    .nets {
+      background-color: green;
+      text-align: center;
+      float: center;
+      width: 80%;
+      margin: 0 auto;
+      color: white;
+      margin-top: 20px;
+      
+      
+    }
+    .df {
+      text-align: center;
+      display: grid;
+      grid-template-columns: 500px 1fr;
+    }
+    .c5 {
+      width: 600px;
+      margin-top: 30px;
+      margin: 0 auto;
+    }
+    .captain {
+      float: centre;
+      padding-top: 15px;
+    }
+    .column2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-right: 5px;
+    }
+    .team {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <h2> GOLDEN EAGLETS</h2>
+  <section class="nets"> 
+    <div class="df">
+      <div class="column1">
+  <ul>
+    <li>GK	Richard Odoh</li>
+    <li>GK	Temiloluwa Adelakin</li>
+    <li>GK	Gift Adie</li>
+    <li>DF	Yahaya Lawali</li>
+    <li>DF	Emmanuel Michael</li>
+    <li>DF	Tochukwu Ogboji</li>
+    <li>DF	Jeremiah Olaleke</li>
+    <li>DF	Israel Usulor</li>
+    <li>DF	Chijoke Linus</li>
+    <li>DF	Quadri Adewale</li>
+    <li>MF	Haruna Abdullahi</li>
+    <li>MF	Umar Abubakar</li>
+    <li>MF	Ifeoluwa Olowoporoku</li>
+    <li>MF	Charles Agada</li>
+        
+    </ul>
+    </div>
+  <div class="column2" >
+    <div class="c3">
+  <ul>
+    <li>MF	Hope Linus</li>
+    <li>MF	Anongu Aondoakaa</li>
+    <li>MF	Simon Cletus</li>
+    <li>MF	Musa Akinfenwa</li>
+    <li>MF	Usman Owoyemi</li>
+    <li>MF	Matthew Kingsley</li>
+    <li>FW	Abubakar Abdullahi</li>
+    <li>FW	Precious Williams (Captain)</li>
+    <li>FW	Jubril Azeez</li>
+    <li>FW	Tochukwu Ogbadibo</li>
+    <li>FW	Light Eke</li>
+    <li>FW	Favour Daniel</li>
+    
+  </div>
+  <div class="c4">
+ <img class=captain src="Precious Williams.jpg" alt=""> <figcaption>CAPTAIN</figcaption>
+</div>
+  </ul>
+</div>
+  </section>
+  <div class="team">
+  <img class=c5 src="women/golden.jpg" alt="">
+</div>
+  
+</div>
+</body>
+</html>
