@@ -5,12 +5,16 @@ body {
   position:absolute;
   
 }
+
 .container {
   margin:auto;
   overflow: hidden;
   background-color: rgb(54, 180, 54);
 }
-
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
 ul {
   padding: 0;
   margin: 0;
