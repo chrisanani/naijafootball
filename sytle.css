@@ -11,7 +11,7 @@ body {
   overflow: hidden;
   background-color: rgb(54, 180, 54);
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1500px) {
   body {
     background-color: lightblue;
   }
