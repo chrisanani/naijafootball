@@ -121,6 +121,23 @@ figcaption {
    margin-right: 50px;
 
 }
+@mediam (max-width:500px) {
+  header 
+  width: 95%;
+  footer { 
+    margin-top:115em;}
+    p {
+      width:95%;
+    }
+
+    @mediam (min-width:1201px) {
+  header 
+  height: 50ph;
+  footer { 
+    margin-bottom:80vh;}
+    p {
+      width:95%;
+    }
 
 .main {
   display: grid;
