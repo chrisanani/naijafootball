@@ -1,7 +1,4 @@
 
-Here is a corrected version of your CSS code:
-
-CSS
 body {
   padding: auto;
   margin: auto;
@@ -128,25 +125,6 @@ figcaption {
   position: relative;
   margin-right: 50px;
 }
-
-@media (max-width: 500px) {
-  header {
-    width: 95%;
-  }
-
-  footer {
-    margin-top: 115em;
-  }
-
-  p {
-    width: 95%;
-  }
-}
-
-@media (min-width: 1201px) {
-  header {
-    height: 20vh;
-  }
 
   footer {
     margin-bottom: 80vh;
@@ -348,3 +326,22 @@ tr, td {
   background-color: yellow;
   font-weight: bold;
 }
+
+@media (max-width: 500px) {
+  header {
+    width: 95%;
+  }
+
+  footer {
+    margin-top: 115em;
+  }
+
+  p {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1201px) {
+  header {
+    height: 20vh;
+  }
