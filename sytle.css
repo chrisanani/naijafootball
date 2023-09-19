@@ -289,6 +289,8 @@ summary p {
   color: green;
   margin-left: 50px;
 }
+table {
+  margin-left: 50px}
 
 tr, td {
   width: 200px;
