@@ -171,4 +171,14 @@ figcaption {
   border-radius: 30px;
   cursor: pointer;
   border: 4px solid green;
-  font-weight: bolder;
+  font-weight: bolder; }
+
+.president {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  color: green;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+}
