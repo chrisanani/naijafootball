@@ -1,17 +1,19 @@
+
+Here is a corrected version of your CSS code:
+
+CSS
 body {
   padding: auto;
   margin: auto;
   width: 80%;
   position: absolute;
-  
 }
 
 .container {
-  margin:auto;
+  margin: auto;
   overflow: hidden;
   background-color: rgb(54, 180, 54);
 }
-
 
 ul {
   padding: 0;
@@ -21,29 +23,29 @@ ul {
 
 .football {
   float: left;
-  color:green;
+  color: green;
   font-size: 30px;
-  
 }
+
 h1 {
-  
+  margin-top: 0;
 }
+
 header {
-background-color: green;
-color: white;
-padding-top: 10px;
-min-height: 70px;
-border:white 4px solid;
-padding-bottom: 10px;
-border-top-right-radius: 30px;
-border-top-left-radius: 30px;
+  background-color: green;
+  color: white;
+  padding-top: 10px;
+  min-height: 70px;
+  border: 4px solid white;
+  padding-bottom: 10px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 header a {
-background-color:none;
-text-decoration: none;
-font-size: 20px;
-
+  background-color: none;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 header a:hover {
@@ -52,41 +54,44 @@ header a:hover {
   padding: 2px;
   border-radius: 10px;
   color: white;
- }
+}
 
 header li {
   list-style: none;
   display: inline;
   padding: 0 20px 0 20px;
   text-decoration: none;
-  
 }
+
 .boxing {
-background-color: white;
-text-align: centers;
-min-height: 43px;
-margin-right: 5px;
+  background-color: white;
+  text-align: center;
+  min-height: 43px;
+  margin-right: 5px;
 }
+
 .soccer {
-width: 120px;
-height: 120px;
-float: left;
-background-color: white;
+  width: 120px;
+  height: 120px;
+  float: left;
+  background-color: white;
 }
 
 nav {
   float: right;
   font-size: 15px;
   color: green;
-text-align: center;
-margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
 }
+
 h2 {
   margin-top: 40px;
   color: white;
   font-size: x-large;
   margin-left: 30px;
 }
+
 p {
   text-align: justify;
   font-size: large;
@@ -96,53 +101,65 @@ p {
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 20px;
-
 }
+
 .fa {
   width: 300px;
   text-align: center;
   border-radius: 150px;
-  }
+}
+
 .af {
   text-align: center;
 }
+
 figcaption {
   text-align: center;
-  color:white ;
+  color: white;
   font-size: large;
 }
+
 .nationalteams {
   text-align: center;
   background-color: white;
   padding-top: 30px;
   margin: 0 auto;
-   margin-top: 30px;
-   position:relative;
-   margin-right: 50px;
-
+  margin-top: 30px;
+  position: relative;
+  margin-right: 50px;
 }
-@mediam (max-width:500px) {
-  header 
-  width: 95%;
-  footer { 
-    margin-top:115em;}
-    p {
-      width:95%;
-    }
 
-    @mediam (min-width:1201px) {
-  header 
-  height: 50ph;
-  footer { 
-    margin-bottom:80vh;}
-    p {
-      width:95%;
-    }
+@media (max-width: 500px) {
+  header {
+    width: 95%;
+  }
+
+  footer {
+    margin-top: 115em;
+  }
+
+  p {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1201px) {
+  header {
+    height: 50vh;
+  }
+
+  footer {
+    margin-bottom: 80vh;
+  }
+
+  p {
+    width: 95%;
+  }
+}
 
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
 }
 
 .national {
@@ -153,190 +170,5 @@ figcaption {
   color: green;
   border-radius: 30px;
   cursor: pointer;
-  border: solid 4px green;
+  border: 4px solid green;
   font-weight: bolder;
-  
-}
-
-.national:hover {
-  border: solid 4px green;
-  background-color: green;
-  color: white;
-  font-weight: bold;
-}
-
-.president {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: white;
-  color: green;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding: 20px;
-}
-
-footer {
-  background-color: white;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  padding: 5px;
-  border: double green 3px;
-  position: relative;
-}
-.foot {
-  background-color: green;
-}
-
-.t1 {
-  float: right;
-  margin-top: 40px;
-}
-#t2  {
-  width: 300px;
-  text-align: center;
-}
-.t3 {
-  float: left;
-    margin-top: 40px;
-  
-}
-#t5 {
-  width: 150px;
-  text-align: center;
-  border-radius: 70px;
-
-}
-
-.legend {
-  color:green;
-  width: 95%;
-}
-.keeper {
-  float: left;
-  margin-left: 10px;
-  width: 20%;
-  padding: auto;
-  text-align: center;
-   
-}
-.footballer {
-  float: right;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   width: 70%;
-  column-gap: 10px;
-  row-gap: 10px;
-  text-align: center;
-  margin-right: 20px;
-}
-
-.oldfootballers {
-  position: right;
-}
-
-.video {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-}
-.vid {
-  width: 150px;
-  display: inline;
-}
-
-.honours {
-  display: inline;
-  background-color: gold;
-  color: green;
-  font-weight: bolder;
-  
-}
-
-.honours p {
-  color: blue;
-
-}
-
-.men  {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 10px;
-  background-color: rgb(221, 221, 21);
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.women {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 10px;
-  background-color: rgb(221, 221, 21);
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-  
-  margin: 10px;
-}
-
-.trophy { 
-  display: inline;
-  background-color: whitesmoke;
-  width: 150px;
-  text-align: center;
-  margin-left: 400px;
-}
-
-.cup {
-    height: 200px;
-}
-
-summary {
-  background-color: yellow;
-  font-size: large;
-  margin-left: 50px;
-  padding-bottom: 10px;
-  width:93%;
-}
-
-summary p {
-  background-color: white;
-  color: green;
-  margin-left: 50px;
-  margin-right:50px;
-}
-
-tr, td {
-  width: 200px;
-  margin-left: 50px;
-  border: solid 4px red;
-  padding-left: 50px;
-  color: black;
-  background-color: yellow;
-
-}
-table {
-  margin-left:50px;
-}
-  
-.lead {
-  margin-left: 50px;
-}
-
-.club {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 50px;
-  border: solid 4px red;
-  padding: 20px;
-  color: black;
-  background-color: yellow;
-  font-weight: bold;
-  margin-right:20px;
-}
-
- 
