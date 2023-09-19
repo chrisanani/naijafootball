@@ -303,6 +303,7 @@ tr, td {
 
 .lead {
   margin-left: 50px;
+  padding-left:50px
 }
 
 .club {
@@ -315,3 +316,8 @@ tr, td {
   background-color: yellow;
   font-weight: bold;
 }
+
+table {
+  margin-left:100px
+}
+  
