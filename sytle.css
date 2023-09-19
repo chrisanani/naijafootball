@@ -173,6 +173,13 @@ figcaption {
   border: 4px solid green;
   font-weight: bolder; }
 
+.national:hover {
+  border: solid 4px green;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
 .president {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -181,4 +188,163 @@ figcaption {
   margin-left: 40px;
   margin-right: 40px;
   padding: 20px;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border: double green 3px;
+  position: relative;
+}
+.foot {
+  background-color: green;
+}
+
+.t1 {
+  float: right;
+  margin-top: 40px;
+}
+#t2  {
+  width: 300px;
+  text-align: center;
+}
+.t3 {
+  float: left;
+    margin-top: 40px;
+  
+}
+#t5 {
+  width: 150px;
+  text-align: center;
+  border-radius: 70px;
+
+}
+
+.legend {
+  color:green;
+  width: 95%;
+}
+.keeper {
+  float: left;
+  margin-left: 10px;
+  width: 20%;
+  padding: auto;
+  text-align: center;
+   
+}
+.footballer {
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   width: 70%;
+  column-gap: 10px;
+  row-gap: 10px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.oldfootballers {
+  position: right;
+}
+
+.video {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.vid {
+  width: 150px;
+  display: inline;
+}
+
+.honours {
+  display: inline;
+  background-color: gold;
+  color: green;
+  font-weight: bolder;
+  
+}
+
+.honours p {
+  color: blue;
+
+}
+
+.men  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  background-color: rgb(221, 221, 21);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.women {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  background-color: rgb(221, 221, 21);
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  
+  margin: 10px;
+}
+
+.trophy { 
+  display: inline;
+  background-color: whitesmoke;
+  width: 150px;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.cup {
+    height: 200px;
+}
+
+summary {
+  background-color: yellow;
+  font-size: large;
+  margin-left: 50px;
+  padding-bottom: 10px;
+  width: 93%;
+}
+
+summary p {
+  background-color: white;
+  color: green;
+  margin-left: 50px;
+}
+
+tr, td {
+  width: 200px;
+  margin-left: 50px;
+  border: solid 4px red;
+  padding-left: 50px;
+  color: black;
+  background-color: yellow;
+
+}
+
+.lead {
+  margin-left: 50px;
+}
+
+.club {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 50px;
+  border: solid 4px red;
+  padding: 20px;
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
 }
